@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Info</title>
 <style>
+    :root {
+        --primary-color: rgb(0, 195, 255);
+    }
     body {
         margin: 0;
         padding: 0;
@@ -36,7 +39,7 @@
     }
 
     .info table th {
-        background-color: #f00;
+        background-color: var(--primary-color);
         color: #fff;
         text-align: left;
         font-weight: bold;
@@ -51,7 +54,7 @@
         width: 100%;
         padding: 10px;
         margin: 10px 0;
-        border: 1px solid #f00;
+        border: 1px solid var(--primary-color);
         border-radius: 5px;
     }
 
@@ -61,7 +64,7 @@
         margin: 10px 0;
         border: none;
         border-radius: 5px;
-        background-color: #f00;
+        background-color: var(--primary-color);
         color: #fff;
         font-size: 18px;
         font-weight: bold;
@@ -86,7 +89,7 @@
     }
 
     .list table th {
-        background-color: #f00;
+        background-color: var(--primary-color);
         color: #fff;
         text-align: left;
         font-weight: bold;
@@ -106,7 +109,7 @@
     }
 
     .list table tr:hover td {
-        color: #f00;
+        color: var(--primary-color);
     }
 </style>
 </head>
