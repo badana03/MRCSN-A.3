@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Info</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #fff;  
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .main {
+        width: 100%;
+        height: 100vh; 
+    }
+
+    .info {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .info h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;  
+    }
+
+    .info table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .info table th {
+        background-color: #f00;
+        color: #fff;
+        text-align: left;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .info table td {
+        padding: 10px;
+    }
+
+    .info input {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #f00;
+        border-radius: 5px;
+    }
+
+    .info button {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+        background-color: #f00;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .list {
+        margin: auto;
+        padding: 20px;
+    }
+
+    .list h1 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;  
+    }
+
+    .list table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .list table th {
+        background-color: #f00;
+        color: #fff;
+        text-align: left;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .list table td {
+        padding: 10px;
+    }
+
+    .list table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .list table tr:hover {
+        background-color: #ddd;
+    }
+
+    .list table tr:hover td {
+        color: #f00;
+    }
+</style>
+</head>
+<body>
+<div class="main">
+    <header>
+    </header>
+    <div class="info">
+        <h1>My Personal Info</h1>
+        <table>
+            <form>
+                <tr>
+                    <th>Information</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="James Ivan Badana"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="example@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone:</label></td>
+                    <td><input type="tel" id="phone" name="phone" placeholder="09123456789"></td>
+                </tr>
+                <tr>
+                    <td><label for="birth">Date of Birth:</label></td>
+                    <td><input type="date" id="birth" name="birth"></td>
+                </tr>
+            </form>
+        </table>
+        <button class="save">Save Changes</button>
+    </div>
+    <div class="list">
+        <h1>Friends List</h1>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Friends for</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>
+                <td>Male</td>
+                <td>3 years</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>30</td>
+                <td>Female</td>
+                <td>5 years</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>35</td>
+                <td>Male</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>Williams</td>
+                <td>28</td>
+                <td>Female</td>
+                <td>4 years</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>Brown</td>
+                <td>32</td>
+                <td>Male</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>Emily</td>
+                <td>Miller</td>
+                <td>27</td>
+                <td>Female</td>
+                <td>6 years</td>
+            </tr>
+            <tr>
+                <td>Christopher</td>
+                <td>Anderson</td>
+                <td>29</td>
+                <td>Male</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td>Amanda</td>
+                <td>Wilson</td>
+                <td>31</td>
+                <td>Female</td>
+                <td>3 years</td>
+            </tr>
+            <tr>
+                <td>Matthew</td>
+                <td>Taylor</td>
+                <td>26</td>
+                <td>Male</td>
+                <td>4 years</td>
+            </tr>
+            <tr>
+                <td>Olivia</td>
+                <td>Clark</td>
+                <td>33</td>
+                <td>Female</td>
+                <td>1 year</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

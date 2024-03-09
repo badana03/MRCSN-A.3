@@ -58,6 +58,99 @@
     .menu a:hover {
         color: #f00;
     }
+
+    .container {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: block;
+        align-items: center;
+        font-family: 'Popins', sans-serif;
+    }
+
+    .about {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+    }
+
+    .about h1 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #333;
+        margin: 20px 0;
+    }   
+
+    .about p {
+        font-size: 18px;
+        color: #333;
+    }
+
+    .post {
+        background-color: #fff;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+    }
+
+    .post h1 {
+        font-size: 25px;
+        font-weight: bold;
+        color: #333;
+        margin: 20px 0;
+    }
+
+    .post p {
+        font-size: 18px;
+        color: #333;   
+    }
+
+    .subscribe {
+        padding: 10px 20px;
+        margin: 10px 10px;
+        font-size: 18px;
+        color: #000;
+        background-color: #bdbdbd;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .update {
+        padding: 10px 20px;
+        margin: 10px 10px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(44, 138, 0);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .delete {
+        padding: 10px 20px;
+        margin: 10px 10px;
+        font-size: 18px;
+        color: #fff;
+        background-color: #f00;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .edit {
+        padding: 10px 20px;
+        margin: 10px 10px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(0, 110, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 </style>
 </head>
 <body>
@@ -70,17 +163,24 @@
             <div class="menu">
                 <a href="#" class="active">Home</a>
                 <a href="#">About Us</a>
-                <a href="#">My Personal Info</a>
+                <a href="my personal info.html">My Personal Info</a>
             </div>
         </nav>
     </header>
-</div>
-<div class="container">
-    <div class="about">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur placeat, quasi nemo aut ea cupiditate et recusandae sint eos? A ipsa explicabo repellat illum officiis aut magni sit id!</p>
+    <div class="container">
+        <div class="about">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur placeat, quasi nemo aut ea cupiditate et recusandae sint eos? A ipsa explicabo repellat illum officiis aut magni sit id!</p>
+        </div>
+        <div class="post">
+            <h1>Get Involved</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur placeat, quasi nemo aut ea cupiditate et recusandae sint eos? A ipsa explicabo repellat illum officiis aut magni sit id!</p>
+            <button class="subscribe">Subscribe Now</button>
+            <button class="update">Update</button>
+            <button class="delete">Delete</button>
+            <button class="edit">Edit</button>
+        </div>
     </div>
-    <div class="post"></div>
 </div>
 </body>
 </html>
